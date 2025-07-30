@@ -1,0 +1,1910 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="profile" href="https://gmpg.org/xfn/11">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <title>BeAI Hub &#8211;Soluções Inteligentes</title>
+        <meta name='robots' content='noindex, nofollow'/>
+        <style>
+            img:is([sizes="auto" i], [sizes^="auto," i]) {
+                contain-intrinsic-size: 3000px 1500px
+            }
+        </style>
+        <link rel="alternate" type="application/rss+xml" title="Feed para BeAI Hub &raquo;" href="https://beaihub.com.br/feed/"/>
+        <link rel="alternate" type="application/rss+xml" title="Feed de comentários para BeAI Hub &raquo;" href="https://beaihub.com.br/comments/feed/"/>
+        <script>
+            window._wpemojiSettings = {
+                "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/",
+                "ext": ".png",
+                "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/",
+                "svgExt": ".svg",
+                "source": {
+                    "concatemoji": "https:\/\/beaihub.com.br\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.2"
+                }
+            };
+            /*! This file is auto-generated */
+            !function(s, n) {
+                var o, i, e;
+                function c(e) {
+                    try {
+                        var t = {
+                            supportTests: e,
+                            timestamp: (new Date).valueOf()
+                        };
+                        sessionStorage.setItem(o, JSON.stringify(t))
+                    } catch (e) {}
+                }
+                function p(e, t, n) {
+                    e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+                    e.fillText(t, 0, 0);
+                    var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data)
+                      , a = (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+                    e.fillText(n, 0, 0),
+                    new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
+                    return t.every(function(e, t) {
+                        return e === a[t]
+                    })
+                }
+                function u(e, t) {
+                    e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+                    e.fillText(t, 0, 0);
+                    for (var n = e.getImageData(16, 16, 1, 1), a = 0; a < n.data.length; a++)
+                        if (0 !== n.data[a])
+                            return !1;
+                    return !0
+                }
+                function f(e, t, n, a) {
+                    switch (t) {
+                    case "flag":
+                        return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\udde8\ud83c\uddf6", "\ud83c\udde8\u200b\ud83c\uddf6") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");
+                    case "emoji":
+                        return !a(e, "\ud83e\udedf")
+                    }
+                    return !1
+                }
+                function g(e, t, n, a) {
+                    var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300,150) : s.createElement("canvas")
+                      , o = r.getContext("2d", {
+                        willReadFrequently: !0
+                    })
+                      , i = (o.textBaseline = "top",
+                    o.font = "600 32px Arial",
+                    {});
+                    return e.forEach(function(e) {
+                        i[e] = t(o, e, n, a)
+                    }),
+                    i
+                }
+                function t(e) {
+                    var t = s.createElement("script");
+                    t.src = e,
+                    t.defer = !0,
+                    s.head.appendChild(t)
+                }
+                "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports",
+                i = ["flag", "emoji"],
+                n.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                },
+                e = new Promise(function(e) {
+                    s.addEventListener("DOMContentLoaded", e, {
+                        once: !0
+                    })
+                }
+                ),
+                new Promise(function(t) {
+                    var n = function() {
+                        try {
+                            var e = JSON.parse(sessionStorage.getItem(o));
+                            if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests)
+                                return e.supportTests
+                        } catch (e) {}
+                        return null
+                    }();
+                    if (!n) {
+                        if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob)
+                            try {
+                                var e = "postMessage(" + g.toString() + "(" + [JSON.stringify(i), f.toString(), p.toString(), u.toString()].join(",") + "));"
+                                  , a = new Blob([e],{
+                                    type: "text/javascript"
+                                })
+                                  , r = new Worker(URL.createObjectURL(a),{
+                                    name: "wpTestEmojiSupports"
+                                });
+                                return void (r.onmessage = function(e) {
+                                    c(n = e.data),
+                                    r.terminate(),
+                                    t(n)
+                                }
+                                )
+                            } catch (e) {}
+                        c(n = g(i, f, p, u))
+                    }
+                    t(n)
+                }
+                ).then(function(e) {
+                    for (var t in e)
+                        n.supports[t] = e[t],
+                        n.supports.everything = n.supports.everything && n.supports[t],
+                        "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]);
+                    n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag,
+                    n.DOMReady = !1,
+                    n.readyCallback = function() {
+                        n.DOMReady = !0
+                    }
+                }).then(function() {
+                    return e
+                }).then(function() {
+                    var e;
+                    n.supports.everything || (n.readyCallback(),
+                    (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji),
+                    t(e.wpemoji)))
+                }))
+            }((window,
+            document), window._wpemojiSettings);
+        </script>
+        <link rel='stylesheet' id='bdt-uikit-css' href='https://beaihub.com.br/wp-content/plugins/bdthemes-element-pack/assets/css/bdt-uikit.css?ver=3.17.11' media='all'/>
+        <link rel='stylesheet' id='ep-helper-css' href='https://beaihub.com.br/wp-content/plugins/bdthemes-element-pack/assets/css/ep-helper.css?ver=7.12.16' media='all'/>
+        <style id='wp-emoji-styles-inline-css'>
+            img.wp-smiley, img.emoji {
+                display: inline !important;
+                border: none !important;
+                box-shadow: none !important;
+                height: 1em !important;
+                width: 1em !important;
+                margin: 0 0.07em !important;
+                vertical-align: -0.1em !important;
+                background: none !important;
+                padding: 0 !important;
+            }
+        </style>
+        <style id='classic-theme-styles-inline-css'>
+            /*! This file is auto-generated */
+            .wp-block-button__link {
+                color: #fff;
+                background-color: #32373c;
+                border-radius: 9999px;
+                box-shadow: none;
+                text-decoration: none;
+                padding: calc(.667em + 2px) calc(1.333em + 2px);
+                font-size: 1.125em
+            }
+
+            .wp-block-file__button {
+                background: #32373c;
+                color: #fff;
+                text-decoration: none
+            }
+        </style>
+        <style id='global-styles-inline-css'>
+            :root {
+                --wp--preset--aspect-ratio--square: 1;
+                --wp--preset--aspect-ratio--4-3: 4/3;
+                --wp--preset--aspect-ratio--3-4: 3/4;
+                --wp--preset--aspect-ratio--3-2: 3/2;
+                --wp--preset--aspect-ratio--2-3: 2/3;
+                --wp--preset--aspect-ratio--16-9: 16/9;
+                --wp--preset--aspect-ratio--9-16: 9/16;
+                --wp--preset--color--black: #000000;
+                --wp--preset--color--cyan-bluish-gray: #abb8c3;
+                --wp--preset--color--white: #ffffff;
+                --wp--preset--color--pale-pink: #f78da7;
+                --wp--preset--color--vivid-red: #cf2e2e;
+                --wp--preset--color--luminous-vivid-orange: #ff6900;
+                --wp--preset--color--luminous-vivid-amber: #fcb900;
+                --wp--preset--color--light-green-cyan: #7bdcb5;
+                --wp--preset--color--vivid-green-cyan: #00d084;
+                --wp--preset--color--pale-cyan-blue: #8ed1fc;
+                --wp--preset--color--vivid-cyan-blue: #0693e3;
+                --wp--preset--color--vivid-purple: #9b51e0;
+                --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);
+                --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);
+                --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);
+                --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);
+                --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);
+                --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
+                --wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);
+                --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);
+                --wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);
+                --wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);
+                --wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);
+                --wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
+                --wp--preset--font-size--small: 13px;
+                --wp--preset--font-size--medium: 20px;
+                --wp--preset--font-size--large: 36px;
+                --wp--preset--font-size--x-large: 42px;
+                --wp--preset--spacing--20: 0.44rem;
+                --wp--preset--spacing--30: 0.67rem;
+                --wp--preset--spacing--40: 1rem;
+                --wp--preset--spacing--50: 1.5rem;
+                --wp--preset--spacing--60: 2.25rem;
+                --wp--preset--spacing--70: 3.38rem;
+                --wp--preset--spacing--80: 5.06rem;
+                --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+                --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+                --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+                --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+                --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+            }
+
+            :where(.is-layout-flex) {
+                gap: 0.5em;
+            }
+
+            :where(.is-layout-grid) {
+                gap: 0.5em;
+            }
+
+            body .is-layout-flex {
+                display: flex;
+            }
+
+            .is-layout-flex {
+                flex-wrap: wrap;
+                align-items: center;
+            }
+
+            .is-layout-flex > :is(*, div) {
+                margin: 0;
+            }
+
+            body .is-layout-grid {
+                display: grid;
+            }
+
+            .is-layout-grid > :is(*, div) {
+                margin: 0;
+            }
+
+            :where(.wp-block-columns.is-layout-flex) {
+                gap: 2em;
+            }
+
+            :where(.wp-block-columns.is-layout-grid) {
+                gap: 2em;
+            }
+
+            :where(.wp-block-post-template.is-layout-flex) {
+                gap: 1.25em;
+            }
+
+            :where(.wp-block-post-template.is-layout-grid) {
+                gap: 1.25em;
+            }
+
+            .has-black-color {
+                color: var(--wp--preset--color--black) !important;
+            }
+
+            .has-cyan-bluish-gray-color {
+                color: var(--wp--preset--color--cyan-bluish-gray) !important;
+            }
+
+            .has-white-color {
+                color: var(--wp--preset--color--white) !important;
+            }
+
+            .has-pale-pink-color {
+                color: var(--wp--preset--color--pale-pink) !important;
+            }
+
+            .has-vivid-red-color {
+                color: var(--wp--preset--color--vivid-red) !important;
+            }
+
+            .has-luminous-vivid-orange-color {
+                color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-amber-color {
+                color: var(--wp--preset--color--luminous-vivid-amber) !important;
+            }
+
+            .has-light-green-cyan-color {
+                color: var(--wp--preset--color--light-green-cyan) !important;
+            }
+
+            .has-vivid-green-cyan-color {
+                color: var(--wp--preset--color--vivid-green-cyan) !important;
+            }
+
+            .has-pale-cyan-blue-color {
+                color: var(--wp--preset--color--pale-cyan-blue) !important;
+            }
+
+            .has-vivid-cyan-blue-color {
+                color: var(--wp--preset--color--vivid-cyan-blue) !important;
+            }
+
+            .has-vivid-purple-color {
+                color: var(--wp--preset--color--vivid-purple) !important;
+            }
+
+            .has-black-background-color {
+                background-color: var(--wp--preset--color--black) !important;
+            }
+
+            .has-cyan-bluish-gray-background-color {
+                background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+            }
+
+            .has-white-background-color {
+                background-color: var(--wp--preset--color--white) !important;
+            }
+
+            .has-pale-pink-background-color {
+                background-color: var(--wp--preset--color--pale-pink) !important;
+            }
+
+            .has-vivid-red-background-color {
+                background-color: var(--wp--preset--color--vivid-red) !important;
+            }
+
+            .has-luminous-vivid-orange-background-color {
+                background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-amber-background-color {
+                background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+            }
+
+            .has-light-green-cyan-background-color {
+                background-color: var(--wp--preset--color--light-green-cyan) !important;
+            }
+
+            .has-vivid-green-cyan-background-color {
+                background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+            }
+
+            .has-pale-cyan-blue-background-color {
+                background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+            }
+
+            .has-vivid-cyan-blue-background-color {
+                background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+            }
+
+            .has-vivid-purple-background-color {
+                background-color: var(--wp--preset--color--vivid-purple) !important;
+            }
+
+            .has-black-border-color {
+                border-color: var(--wp--preset--color--black) !important;
+            }
+
+            .has-cyan-bluish-gray-border-color {
+                border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+            }
+
+            .has-white-border-color {
+                border-color: var(--wp--preset--color--white) !important;
+            }
+
+            .has-pale-pink-border-color {
+                border-color: var(--wp--preset--color--pale-pink) !important;
+            }
+
+            .has-vivid-red-border-color {
+                border-color: var(--wp--preset--color--vivid-red) !important;
+            }
+
+            .has-luminous-vivid-orange-border-color {
+                border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-amber-border-color {
+                border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+            }
+
+            .has-light-green-cyan-border-color {
+                border-color: var(--wp--preset--color--light-green-cyan) !important;
+            }
+
+            .has-vivid-green-cyan-border-color {
+                border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+            }
+
+            .has-pale-cyan-blue-border-color {
+                border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+            }
+
+            .has-vivid-cyan-blue-border-color {
+                border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+            }
+
+            .has-vivid-purple-border-color {
+                border-color: var(--wp--preset--color--vivid-purple) !important;
+            }
+
+            .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+                background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+            }
+
+            .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+                background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+            }
+
+            .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+                background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+                background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+            }
+
+            .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+                background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+            }
+
+            .has-cool-to-warm-spectrum-gradient-background {
+                background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+            }
+
+            .has-blush-light-purple-gradient-background {
+                background: var(--wp--preset--gradient--blush-light-purple) !important;
+            }
+
+            .has-blush-bordeaux-gradient-background {
+                background: var(--wp--preset--gradient--blush-bordeaux) !important;
+            }
+
+            .has-luminous-dusk-gradient-background {
+                background: var(--wp--preset--gradient--luminous-dusk) !important;
+            }
+
+            .has-pale-ocean-gradient-background {
+                background: var(--wp--preset--gradient--pale-ocean) !important;
+            }
+
+            .has-electric-grass-gradient-background {
+                background: var(--wp--preset--gradient--electric-grass) !important;
+            }
+
+            .has-midnight-gradient-background {
+                background: var(--wp--preset--gradient--midnight) !important;
+            }
+
+            .has-small-font-size {
+                font-size: var(--wp--preset--font-size--small) !important;
+            }
+
+            .has-medium-font-size {
+                font-size: var(--wp--preset--font-size--medium) !important;
+            }
+
+            .has-large-font-size {
+                font-size: var(--wp--preset--font-size--large) !important;
+            }
+
+            .has-x-large-font-size {
+                font-size: var(--wp--preset--font-size--x-large) !important;
+            }
+
+            :where(.wp-block-post-template.is-layout-flex) {
+                gap: 1.25em;
+            }
+
+            :where(.wp-block-post-template.is-layout-grid) {
+                gap: 1.25em;
+            }
+
+            :where(.wp-block-columns.is-layout-flex) {
+                gap: 2em;
+            }
+
+            :where(.wp-block-columns.is-layout-grid) {
+                gap: 2em;
+            }
+
+            :root :where(.wp-block-pullquote) {
+                font-size: 1.5em;
+                line-height: 1.6;
+            }
+        </style>
+        <link rel='stylesheet' id='elementor-frontend-css' href='https://beaihub.com.br/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.28.1' media='all'/>
+        <link rel='stylesheet' id='elementor-post-146-css' href='https://beaihub.com.br/wp-content/uploads/elementor/css/post-146.css?ver=1752596174' media='all'/>
+        <link rel='stylesheet' id='e-animation-fadeInUp-css' href='https://beaihub.com.br/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=3.28.1' media='all'/>
+        <link rel='stylesheet' id='widget-heading-css' href='https://beaihub.com.br/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.28.1' media='all'/>
+        <link rel='stylesheet' id='widget-image-css' href='https://beaihub.com.br/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.28.1' media='all'/>
+        <link rel='stylesheet' id='ui-e-grid-css' href='https://beaihub.com.br/wp-content/plugins/uicore-elements/assets/css/components/grid.css?ver=1.2.1' media='all'/>
+        <link rel='stylesheet' id='ui-e-animation-css' href='https://beaihub.com.br/wp-content/plugins/uicore-elements/assets/css/components/global-animations.css?ver=1.2.1' media='all'/>
+        <link rel='stylesheet' id='ui-e-entrance-css' href='https://beaihub.com.br/wp-content/plugins/uicore-elements/assets/css/components/global-entrances.css?ver=1.2.1' media='all'/>
+        <link rel='stylesheet' id='widget-menu-anchor-css' href='https://beaihub.com.br/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css?ver=3.28.1' media='all'/>
+        <link rel='stylesheet' id='e-animation-fadeInDown-css' href='https://beaihub.com.br/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css?ver=3.28.1' media='all'/>
+        <link rel='stylesheet' id='elementor-post-145-css' href='https://beaihub.com.br/wp-content/uploads/elementor/css/post-145.css?ver=1752611070' media='all'/>
+        <link rel='stylesheet' id='uicore_global-css' href='https://beaihub.com.br/wp-content/uploads/uicore-global.css?ver=6704' media='all'/>
+        <link rel='stylesheet' id='elementor-gf-local-inter-css' href='https://beaihub.com.br/wp-content/uploads/elementor/google-fonts/css/inter.css?ver=1743084076' media='all'/>
+        <link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://beaihub.com.br/wp-content/plugins/uicore-framework/assets/fonts/themify-icons.css?ver=1.0.0' media='all'/>
+        <link rel='stylesheet' id='elementor-icons-uicore-icons-css' href='https://beaihub.com.br/wp-content/plugins/uicore-framework/assets/fonts/themify-icons.css?ver=1.0.0' media='all'/>
+        <script src="https://beaihub.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+        <script src="https://beaihub.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+        <link rel="https://api.w.org/" href="https://beaihub.com.br/wp-json/"/>
+        <link rel="alternate" title="JSON" type="application/json" href="https://beaihub.com.br/wp-json/wp/v2/pages/145"/>
+        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://beaihub.com.br/xmlrpc.php?rsd"/>
+        <meta name="generator" content="WordPress 6.8.2"/>
+        <link rel="canonical" href="https://beaihub.com.br/"/>
+        <link rel='shortlink' href='https://beaihub.com.br/'/>
+        <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://beaihub.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbeaihub.com.br%2F"/>
+        <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://beaihub.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbeaihub.com.br%2F&#038;format=xml"/>
+        <meta name="generator" content="Elementor 3.28.1; features: e_font_icon_svg, additional_custom_breakpoints, e_local_google_fonts, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap">
+        <meta name="theme-color" content="#FF7F40"/>
+        <link rel="shortcut icon" href="https://beaihub.com.br/wp-content/uploads/2025/03/Favicon.png">
+        <link rel="icon" href="https://beaihub.com.br/wp-content/uploads/2025/03/Favicon.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="https://beaihub.com.br/wp-content/uploads/2025/03/Favicon.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="https://beaihub.com.br/wp-content/uploads/2025/03/Favicon.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="https://beaihub.com.br/wp-content/uploads/2025/03/Favicon.png">
+        <link rel="apple-touch-icon" href="https://beaihub.com.br/wp-content/uploads/2025/03/Favicon.png">
+        <style>
+            .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload), .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+                background-image: none !important;
+            }
+
+            @media screen and (max-height: 1024px) {
+                .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload), .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+                    background-image: none !important;
+                }
+            }
+
+            @media screen and (max-height: 640px) {
+                .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload), .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+                    background-image: none !important;
+                }
+            }
+        </style>
+        <link rel="icon" href="https://beaihub.com.br/wp-content/uploads/2025/03/fdsofas-150x150.png" sizes="32x32"/>
+        <link rel="icon" href="https://beaihub.com.br/wp-content/uploads/2025/03/fdsofas-300x300.png" sizes="192x192"/>
+        <link rel="apple-touch-icon" href="https://beaihub.com.br/wp-content/uploads/2025/03/fdsofas-300x300.png"/>
+        <meta name="msapplication-TileImage" content="https://beaihub.com.br/wp-content/uploads/2025/03/fdsofas-300x300.png"/>
+    </head>
+    <body class="home wp-singular page-template-default page page-id-145 wp-embed-responsive wp-theme-upshift ui-a-dsmm-slide  elementor-default elementor-kit-15 elementor-page elementor-page-145">
+        <div class="uicore-animation-bg"></div>
+        <script id="uicore-page-transition">
+            document.querySelector(".uicore-animation-bg:not(.ui-transition)").remove();
+            window.onload = window.onpageshow = function() {}
+            ;
+        </script>
+        <!-- Custom HTML - Page Options -->
+        <!-- 1.1 uicore_before_body_content -->
+        <div class="uicore-body-content">
+            <!-- 1.2 uicore_before_page_content -->
+            <div id="uicore-page">
+                <div data-uils="header" data-uils-title="Header" id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite" class="uicore uicore-navbar elementor-section elementor-section-boxed uicore-h-classic uicore-sticky ui-smart-sticky ">
+                    <div class="uicore-header-wrapper">
+                        <nav class="uicore elementor-container">
+                            <div class="uicore-branding " data-uils="header-branding" data-uils-title="Site Logo">
+                                <a href="https://beaihub.com.br/" rel="home">
+                                    <img class="uicore uicore-logo uicore-main" src="https://beaihub.com.br/wp-content/uploads/2025/03/Logo-Preta.png" alt="BeAI Hub"/>
+                                    <img class="uicore uicore-logo uicore-second" src="https://beaihub.com.br/wp-content/uploads/2025/03/Logo-Preta.png" alt="BeAI Hub"/>
+                                    <img class="uicore uicore-logo uicore-mobile-main" src="https://beaihub.com.br/wp-content/uploads/2025/03/Logo-Preta.png" alt="BeAI Hub"/>
+                                    <img class="uicore uicore-logo uicore-mobile-second" src="https://beaihub.com.br/wp-content/uploads/2025/03/Logo-Preta.png" alt="BeAI Hub"/>
+                                </a>
+                            </div>
+                            <div class='uicore-nav-menu'>
+                                <div class="uicore-menu-container uicore-nav">
+                                    <ul data-uils="header-menu" data-uils-title="Navigation Menu" class="uicore-menu">
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-214">
+                                            <a href="#top">
+                                                <span class="ui-menu-item-wrapper">Início</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-215">
+                                            <a href="#sobre">
+                                                <span class="ui-menu-item-wrapper">Sobre</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-216">
+                                            <a href="#diferenciais">
+                                                <span class="ui-menu-item-wrapper">Diferenciais</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-217">
+                                            <a href="#paraquem">
+                                                <span class="ui-menu-item-wrapper">Para Quem</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-218">
+                                            <a href="#testemunhos">
+                                                <span class="ui-menu-item-wrapper">Testemunhos</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="uicore uicore-extra" data-uils="header_extra" data-uils-title="Header Extras">
+                                    <div class="uicore-cta-wrapper">
+                                        <a href="https://wa.link/azckgx" target="_self" class="uicore-btn uicore-inverted">
+                                            <span class="elementor-button-text">Contato                    </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uicore-mobile-head-right">
+                                <div class="uicore-cta-wrapper">
+                                    <a href="https://wa.link/azckgx" target="_self" class="uicore-btn uicore-inverted">
+                                        <span class="elementor-button-text">Contato                    </span>
+                                    </a>
+                                </div>
+                                <button type="button" class="uicore-toggle uicore-ham" aria-label="mobile-menu">
+                                    <span class="bars">
+                                        <span class="bar"></span>
+                                        <span class="bar"></span>
+                                        <span class="bar"></span>
+                                    </span>
+                                </button>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <!-- #wrapper-navbar end -->
+                <!-- 1.3 uicore_page -->
+                <div id="content" class="uicore-content">
+                    <!-- 1.4 uicore_before_content -->
+                    <div id="primary" class="content-area">
+                        <article id="post-145" class="post-145 page type-page status-publish hentry">
+                            <main class="entry-content">
+                                <div data-elementor-type="wp-page" data-elementor-id="145" class="elementor elementor-145" data-elementor-settings="{&quot;element_pack_global_tooltip_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;element_pack_global_tooltip_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;element_pack_global_tooltip_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;element_pack_global_tooltip_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}" data-elementor-post-type="page">
+                                    <div class="elementor-element elementor-element-2597646 e-con-full e-flex e-con e-parent" data-id="2597646" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                                        <div class="elementor-element elementor-element-de9cf8e e-flex e-con-boxed e-con e-child" data-id="de9cf8e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                            <div class="e-con-inner">
+                                                <div class="elementor-element elementor-element-715a971 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial elementor-invisible elementor-widget elementor-widget-heading" data-id="715a971" data-element_type="widget" data-settings="{&quot;_animation_delay&quot;:&quot;160&quot;,&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <h1 class="elementor-heading-title elementor-size-default">Soluções inteligentes para empresas inteligentes</h1>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-ef25c2f elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-invisible elementor-widget elementor-widget-text-editor" data-id="ef25c2f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;200&quot;}" data-widget_type="text-editor.default">
+                                                    <div class="elementor-widget-container">
+                                                        <p>Criamos &#8220;Funcionários do Futuro &#8221;que trabalham incansavelmente para transformar e elevar a produtividade do seu negócio. Uma plataforma pensada por empreendedores para democratizar o acesso à Inteligência Artificial para impulsionar e gerar novas oportunidades qualquer tipo de empresa.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-4613c1f elementor-invisible elementor-widget elementor-widget-button" data-id="4613c1f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;240&quot;}" data-widget_type="button.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-button-wrapper">
+                                                            <a class="elementor-button elementor-button-link elementor-size-sm" href="https://wa.link/azckgx">
+                                                                <span class="elementor-button-content-wrapper">
+                                                                    <span class="elementor-button-text">Faça um teste gratuito</span>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-6b290cc elementor-widget__width-inherit elementor-invisible elementor-widget elementor-widget-image" data-id="6b290cc" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;200&quot;}" data-widget_type="image.default">
+                                                    <div class="elementor-widget-container">
+                                                        <img fetchpriority="high" decoding="async" width="1767" height="743" src="https://beaihub.com.br/wp-content/uploads/2025/03/123.png" class="attachment-full size-full wp-image-204" alt="" srcset="https://beaihub.com.br/wp-content/uploads/2025/03/123.png 1767w, https://beaihub.com.br/wp-content/uploads/2025/03/123-300x126.png 300w, https://beaihub.com.br/wp-content/uploads/2025/03/123-1024x431.png 1024w, https://beaihub.com.br/wp-content/uploads/2025/03/123-768x323.png 768w, https://beaihub.com.br/wp-content/uploads/2025/03/123-1536x646.png 1536w, https://beaihub.com.br/wp-content/uploads/2025/03/123-650x273.png 650w" sizes="(max-width: 1767px) 100vw, 1767px"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-8f9c1ea e-flex e-con-boxed e-con e-child" data-id="8f9c1ea" data-element_type="container">
+                                            <div class="e-con-inner">
+                                                <div class="elementor-element elementor-element-10464fa elementor-widget elementor-widget-text-editor" data-id="10464fa" data-element_type="widget" data-widget_type="text-editor.default">
+                                                    <div class="elementor-widget-container">
+                                                        <p>Nossos clientes e parceiros</p>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-8667923 bdt-background-overlay-yes elementor-widget elementor-widget-uicore-logo-grid" data-id="8667923" data-element_type="widget" data-settings="{&quot;columns&quot;:&quot;6&quot;,&quot;animate_items&quot;:&quot;ui-e-grid-animate&quot;,&quot;animate_item_type&quot;:&quot;zoomIn&quot;,&quot;layout&quot;:&quot;inner-border&quot;}" data-widget_type="uicore-logo-grid.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class='ui-e-grid'>
+                                                            <div class="ui-e-wrp">
+                                                                <div class='ui-e-animations-wrp elementor-invisible ui-e-item-anim-fade'>
+                                                                    <div class="ui-e-item">
+                                                                        <figure class="ui-e-item-anim-fade">
+                                                                            <img decoding="async" width="378" height="148" src="https://beaihub.com.br/wp-content/uploads/2025/03/Marketing-Tools-Leaders-Image-1.webp" class="attachment-full size-full" alt=" : " srcset="https://beaihub.com.br/wp-content/uploads/2025/03/Marketing-Tools-Leaders-Image-1.webp 378w, https://beaihub.com.br/wp-content/uploads/2025/03/Marketing-Tools-Leaders-Image-1-300x117.webp 300w" sizes="(max-width: 378px) 100vw, 378px"/>
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ui-e-wrp">
+                                                                <div class='ui-e-animations-wrp elementor-invisible ui-e-item-anim-fade'>
+                                                                    <div class="ui-e-item">
+                                                                        <figure class="ui-e-item-anim-fade">
+                                                                            <img decoding="async" width="378" height="148" src="https://beaihub.com.br/wp-content/uploads/2025/03/Marketing-Tools-Leaders-Image-2.webp" class="attachment-full size-full" alt=" : " srcset="https://beaihub.com.br/wp-content/uploads/2025/03/Marketing-Tools-Leaders-Image-2.webp 378w, https://beaihub.com.br/wp-content/uploads/2025/03/Marketing-Tools-Leaders-Image-2-300x117.webp 300w" sizes="(max-width: 378px) 100vw, 378px"/>
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ui-e-wrp">
+                                                                <div class='ui-e-animations-wrp elementor-invisible ui-e-item-anim-fade'>
+                                                                    <div class="ui-e-item">
+                                                                        <figure class="ui-e-item-anim-fade">
+                                                                            <img loading="lazy" decoding="async" width="378" height="148" src="https://beaihub.com.br/wp-content/uploads/2025/03/Marketing-Tools-Leaders-Image-3.webp" class="attachment-full size-full" alt=" : " srcset="https://beaihub.com.br/wp-content/uploads/2025/03/Marketing-Tools-Leaders-Image-3.webp 378w, https://beaihub.com.br/wp-content/uploads/2025/03/Marketing-Tools-Leaders-Image-3-300x117.webp 300w" sizes="(max-width: 378px) 100vw, 378px"/>
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ui-e-wrp">
+                                                                <div class='ui-e-animations-wrp elementor-invisible ui-e-item-anim-fade'>
+                                                                    <div class="ui-e-item">
+                                                                        <figure class="ui-e-item-anim-fade">
+                                                                            <img loading="lazy" decoding="async" width="378" height="148" src="https://beaihub.com.br/wp-content/uploads/2025/03/Marketing-Tools-Leaders-Image-4.webp" class="attachment-full size-full" alt=" : " srcset="https://beaihub.com.br/wp-content/uploads/2025/03/Marketing-Tools-Leaders-Image-4.webp 378w, https://beaihub.com.br/wp-content/uploads/2025/03/Marketing-Tools-Leaders-Image-4-300x117.webp 300w" sizes="(max-width: 378px) 100vw, 378px"/>
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ui-e-wrp">
+                                                                <div class='ui-e-animations-wrp elementor-invisible ui-e-item-anim-fade'>
+                                                                    <div class="ui-e-item">
+                                                                        <figure class="ui-e-item-anim-fade">
+                                                                            <img loading="lazy" decoding="async" width="378" height="148" src="https://beaihub.com.br/wp-content/uploads/2025/03/Marketing-Tools-Leaders-Image-5.webp" class="attachment-full size-full" alt=" : " srcset="https://beaihub.com.br/wp-content/uploads/2025/03/Marketing-Tools-Leaders-Image-5.webp 378w, https://beaihub.com.br/wp-content/uploads/2025/03/Marketing-Tools-Leaders-Image-5-300x117.webp 300w" sizes="(max-width: 378px) 100vw, 378px"/>
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ui-e-wrp">
+                                                                <div class='ui-e-animations-wrp elementor-invisible ui-e-item-anim-fade'>
+                                                                    <div class="ui-e-item">
+                                                                        <figure class="ui-e-item-anim-fade">
+                                                                            <img loading="lazy" decoding="async" width="378" height="148" src="https://beaihub.com.br/wp-content/uploads/2025/03/Marketing-Tools-Leaders-Image-6.webp" class="attachment-full size-full" alt=" : " srcset="https://beaihub.com.br/wp-content/uploads/2025/03/Marketing-Tools-Leaders-Image-6.webp 378w, https://beaihub.com.br/wp-content/uploads/2025/03/Marketing-Tools-Leaders-Image-6-300x117.webp 300w" sizes="(max-width: 378px) 100vw, 378px"/>
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-9a53279 e-flex e-con-boxed e-con e-parent" data-id="9a53279" data-element_type="container" id="about">
+                                        <div class="e-con-inner">
+                                            <div class="elementor-element elementor-element-8528bb9 e-con-full e-flex e-con e-child" data-id="8528bb9" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-element elementor-element-e66bbb6 elementor-widget elementor-widget-menu-anchor" data-id="e66bbb6" data-element_type="widget" data-widget_type="menu-anchor.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-menu-anchor" id="sobre"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-3914589 elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-invisible elementor-widget elementor-widget-image" data-id="3914589" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;,&quot;_animation_delay&quot;:&quot;160&quot;}" data-widget_type="image.default">
+                                                    <div class="elementor-widget-container">
+                                                        <img loading="lazy" decoding="async" width="352" height="352" src="https://beaihub.com.br/wp-content/uploads/2025/03/31211.png" class="attachment-full size-full wp-image-206" alt="" srcset="https://beaihub.com.br/wp-content/uploads/2025/03/31211.png 352w, https://beaihub.com.br/wp-content/uploads/2025/03/31211-300x300.png 300w, https://beaihub.com.br/wp-content/uploads/2025/03/31211-150x150.png 150w" sizes="(max-width: 352px) 100vw, 352px"/>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-fe5085c elementor-invisible elementor-widget elementor-widget-heading" data-id="fe5085c" data-element_type="widget" data-settings="{&quot;_animation_delay&quot;:&quot;160&quot;,&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <h6 class="elementor-heading-title elementor-size-default">Sobre nós</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-c094037 elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-widget-tablet__width-initial elementor-invisible elementor-widget elementor-widget-heading" data-id="c094037" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;200&quot;}" data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <h2 class="elementor-heading-title elementor-size-default">A IA que faz sentido pro seu negócio</h2>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-cd84cce elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-invisible elementor-widget elementor-widget-text-editor" data-id="cd84cce" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;240&quot;}" data-widget_type="text-editor.default">
+                                                    <div class="elementor-widget-container">
+                                                        <p>Desenvolvemos agentes de Inteligência Artificial que automatizam atendimentos, conectam sistemas, agilizam processos e ajudam empresas a crescerem com mais eficiência tecnológica, menos esforços e sem complicações.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-0443116 e-con-full e-flex e-con e-child" data-id="0443116" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-element elementor-element-5c93152 ui-e-align-center ui-e-counter-simple elementor-widget elementor-widget-uicore-counter" data-id="5c93152" data-element_type="widget" data-settings="{&quot;count_start&quot;:100,&quot;count_end&quot;:100,&quot;counter_separator&quot;:&quot;,&quot;,&quot;decimal_symbol&quot;:&quot;.&quot;,&quot;duration&quot;:3.2,&quot;use_grouping&quot;:&quot;true&quot;,&quot;decimal_places&quot;:0,&quot;counter_animation&quot;:&quot;simple&quot;}" data-widget_type="uicore-counter.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="ui-e-wrp">
+                                                            <h4 class="ui-e-num">
+                                                                <span class="ui-e-prefix"></span>
+                                                                <span class="value">0 </span>
+                                                                <span class="ui-e-suffix"></span>
+                                                            </h4>
+                                                            <!-- no title -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-1c64037 elementor-widget elementor-widget-heading" data-id="1c64037" data-element_type="widget" data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <h3 class="elementor-heading-title elementor-size-default">+</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-536fc00 elementor-widget__width-inherit elementor-widget elementor-widget-text-editor" data-id="536fc00" data-element_type="widget" data-widget_type="text-editor.default">
+                                                    <div class="elementor-widget-container">
+                                                        <p>IAs ativas em produção</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-e44ce37 e-con-full e-flex e-con e-child" data-id="e44ce37" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-element elementor-element-301e5b8 ui-e-counter-odometer ui-e-align-center elementor-widget elementor-widget-uicore-counter" data-id="301e5b8" data-element_type="widget" data-settings="{&quot;count_end&quot;:58,&quot;counter_separator&quot;:&quot;,&quot;,&quot;decimal_symbol&quot;:&quot;.&quot;,&quot;counter_animation&quot;:&quot;odometer&quot;,&quot;count_start&quot;:10,&quot;use_grouping&quot;:&quot;true&quot;,&quot;decimal_places&quot;:0,&quot;duration&quot;:2.5}" data-widget_type="uicore-counter.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="ui-e-wrp">
+                                                            <h4 class="ui-e-num">
+                                                                <span class="ui-e-prefix"></span>
+                                                                <span class="value">0 </span>
+                                                                <span class="ui-e-suffix"></span>
+                                                            </h4>
+                                                            <!-- no title -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-df045ba elementor-widget elementor-widget-heading" data-id="df045ba" data-element_type="widget" data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <h3 class="elementor-heading-title elementor-size-default">x</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-0b755e5 elementor-widget__width-inherit elementor-widget elementor-widget-text-editor" data-id="0b755e5" data-element_type="widget" data-widget_type="text-editor.default">
+                                                    <div class="elementor-widget-container">
+                                                        <p>Mais ROI confirmado</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-4a46bee e-con-full e-flex e-con e-child" data-id="4a46bee" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-element elementor-element-4345880 ui-e-counter-odometer ui-e-align-center elementor-widget elementor-widget-uicore-counter" data-id="4345880" data-element_type="widget" data-settings="{&quot;count_end&quot;:2.5,&quot;counter_separator&quot;:&quot;.&quot;,&quot;decimal_symbol&quot;:&quot;.&quot;,&quot;counter_animation&quot;:&quot;odometer&quot;,&quot;duration&quot;:2.2,&quot;count_start&quot;:1,&quot;decimal_places&quot;:1,&quot;use_grouping&quot;:&quot;true&quot;}" data-widget_type="uicore-counter.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="ui-e-wrp">
+                                                            <h4 class="ui-e-num">
+                                                                <span class="ui-e-prefix">R$ </span>
+                                                                <span class="value">0 </span>
+                                                                <span class="ui-e-suffix"></span>
+                                                            </h4>
+                                                            <!-- no title -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-14c2b03 elementor-widget elementor-widget-heading" data-id="14c2b03" data-element_type="widget" data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <h3 class="elementor-heading-title elementor-size-default">MI</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-a80e71f elementor-widget__width-inherit elementor-widget elementor-widget-text-editor" data-id="a80e71f" data-element_type="widget" data-widget_type="text-editor.default">
+                                                    <div class="elementor-widget-container">
+                                                        <p>De retorno financeiro</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-760381e e-flex e-con-boxed e-con e-parent" data-id="760381e" data-element_type="container" id="benefits" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="e-con-inner">
+                                            <div class="elementor-element elementor-element-205a40e e-con-full e-flex e-con e-child" data-id="205a40e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-element elementor-element-ff953f4 elementor-widget elementor-widget-menu-anchor" data-id="ff953f4" data-element_type="widget" data-widget_type="menu-anchor.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-menu-anchor" id="diferenciais"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-599c301 elementor-invisible elementor-widget elementor-widget-heading" data-id="599c301" data-element_type="widget" data-settings="{&quot;_animation_delay&quot;:&quot;160&quot;,&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <h6 class="elementor-heading-title elementor-size-default">Diferenciais</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-48186c6 elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-widget-tablet__width-initial elementor-invisible elementor-widget elementor-widget-heading" data-id="48186c6" data-element_type="widget" data-settings="{&quot;_animation_delay&quot;:&quot;200&quot;,&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <h2 class="elementor-heading-title elementor-size-default">O que nós fazemos, só nós fazemos</h2>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-2c10087 elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-widget-tablet__width-initial elementor-invisible elementor-widget elementor-widget-text-editor" data-id="2c10087" data-element_type="widget" data-settings="{&quot;_animation_delay&quot;:&quot;240&quot;,&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="text-editor.default">
+                                                    <div class="elementor-widget-container">
+                                                        <p>Entregamos soluções personalizadas direcionadas a múltiplos canais, integradas e arquitetadas para escalar o seu negócio. Agentes de IA autotreinavéis que se diferenciam pela capacidade de aprendizado contínuo capazes de resolver problemas, organizar soluções e gerar dados estratégicos para tomadas de decisões muito mais assertivas.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-3465ce8 e-con-full e-flex e-con e-child" data-id="3465ce8" data-element_type="container">
+                                                <div class="elementor-element elementor-element-5142511 elementor-widget__width-inherit ui-borderanim-hover ui-e-top ui-e-align-center ui-e-align-tablet-center ui-e-align-mobile-center elementor-widget elementor-widget-uicore-icon-box" data-id="5142511" data-element_type="widget" data-settings="{&quot;content_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;48&quot;,&quot;right&quot;:&quot;12&quot;,&quot;bottom&quot;:&quot;48&quot;,&quot;left&quot;:&quot;12&quot;,&quot;isLinked&quot;:false},&quot;position&quot;:&quot;top&quot;,&quot;content_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;content_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}" data-widget_type="uicore-icon-box.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="ui-e-ico-box">
+                                                            <div class='ui-e-flex-wrp'>
+                                                                <div class="ui-e-icon-wrp">
+                                                                    <i aria-hidden="true" class="ti ti-loop"></i>
+                                                                </div>
+                                                                <div class="ui-e-title-wrp">
+                                                                    <h5 class="ui-e-title">IA Generativa</h5>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ui-e-box-content">
+                                                                <div class="ui-e-description">
+                                                                    <p>Nossos agentes não são apenas robôs programados — eles geram respostas naturais, aprendem com o contexto e mantêm conversas que realmente fazem sentido para o seu cliente.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-42edd66 elementor-widget__width-inherit ui-borderanim-hover ui-e-top ui-e-align-center ui-e-align-tablet-center ui-e-align-mobile-center elementor-widget elementor-widget-uicore-icon-box" data-id="42edd66" data-element_type="widget" data-settings="{&quot;content_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;48&quot;,&quot;right&quot;:&quot;12&quot;,&quot;bottom&quot;:&quot;48&quot;,&quot;left&quot;:&quot;12&quot;,&quot;isLinked&quot;:false},&quot;position&quot;:&quot;top&quot;,&quot;content_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;content_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}" data-widget_type="uicore-icon-box.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="ui-e-ico-box">
+                                                            <div class='ui-e-flex-wrp'>
+                                                                <div class="ui-e-icon-wrp">
+                                                                    <i aria-hidden="true" class="ti ti-split-h"></i>
+                                                                </div>
+                                                                <div class="ui-e-title-wrp">
+                                                                    <h5 class="ui-e-title">Integrações</h5>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ui-e-box-content">
+                                                                <div class="ui-e-description">
+                                                                    <p>Seja qual for a sua necessidade, CRM, planilha, e-commerce ou agenda, nós conectamos seu agente de IA com as ferramentas do seu cotidiano para automatizar processos de ponta a ponta. Agilidade e simplicidade para atender suas demandas.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-85bfc17 elementor-widget__width-inherit ui-borderanim-hover ui-e-top ui-e-align-center ui-e-align-tablet-center ui-e-align-mobile-center elementor-widget elementor-widget-uicore-icon-box" data-id="85bfc17" data-element_type="widget" data-settings="{&quot;content_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;48&quot;,&quot;right&quot;:&quot;12&quot;,&quot;bottom&quot;:&quot;48&quot;,&quot;left&quot;:&quot;12&quot;,&quot;isLinked&quot;:false},&quot;position&quot;:&quot;top&quot;,&quot;content_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;content_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}" data-widget_type="uicore-icon-box.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="ui-e-ico-box">
+                                                            <div class='ui-e-flex-wrp'>
+                                                                <div class="ui-e-icon-wrp">
+                                                                    <i aria-hidden="true" class="ti ti-marker"></i>
+                                                                </div>
+                                                                <div class="ui-e-title-wrp">
+                                                                    <h5 class="ui-e-title">Personalização</h5>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ui-e-box-content">
+                                                                <div class="ui-e-description">
+                                                                    <p>Nada de chatbots genéricos e superficiais. Criamos agentes de IA com a linguagem, tom, regras e lógicas que atendam as expectativas do seu negócio. Seu público merece um atendimento de excelência de acordo os padrões e melhores práticas do mercado. Reunimos empatia e eficiência, visão e execução, estratégia e ação, a serviço de sua empresa.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-23bc0fc e-con-full e-flex e-con e-parent" data-id="23bc0fc" data-element_type="container" id="how">
+                                        <div class="elementor-element elementor-element-37d84d9 e-flex e-con-boxed elementor-invisible e-con e-child" data-id="37d84d9" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:&quot;160&quot;}">
+                                            <div class="e-con-inner">
+                                                <div class="elementor-element elementor-element-9ba4635 e-flex e-con-boxed e-con e-child" data-id="9ba4635" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                    <div class="e-con-inner">
+                                                        <div class="elementor-element elementor-element-cebcd47 elementor-widget elementor-widget-menu-anchor" data-id="cebcd47" data-element_type="widget" data-widget_type="menu-anchor.default">
+                                                            <div class="elementor-widget-container">
+                                                                <div class="elementor-menu-anchor" id="paraquem"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-element elementor-element-c7afdcd elementor-invisible elementor-widget elementor-widget-heading" data-id="c7afdcd" data-element_type="widget" data-settings="{&quot;_animation_delay&quot;:&quot;240&quot;,&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+                                                            <div class="elementor-widget-container">
+                                                                <h6 class="elementor-heading-title elementor-size-default">Para quem precisa</h6>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-element elementor-element-02d642b elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-invisible elementor-widget elementor-widget-heading" data-id="02d642b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;280&quot;}" data-widget_type="heading.default">
+                                                            <div class="elementor-widget-container">
+                                                                <h2 class="elementor-heading-title elementor-size-default">Para quem é as nossas soluções</h2>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-element elementor-element-769d006 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-invisible elementor-widget elementor-widget-text-editor" data-id="769d006" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;240&quot;}" data-widget_type="text-editor.default">
+                                                            <div class="elementor-widget-container">
+                                                                <p>Para empresas que querem automatizar processos com inteligência, escalar resultados com controle e transformar a experiência de um simples atendimento em algo único e impactante.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-element elementor-element-e7246f9 elementor-widget__width-initial elementor-widget-mobile__width-inherit ui-e-icon-left ui-e-left elementor-align-left elementor-invisible elementor-widget elementor-widget-uicore-icon-list" data-id="e7246f9" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;320&quot;}" data-widget_type="uicore-icon-list.default">
+                                                            <div class="elementor-widget-container">
+                                                                <ul>
+                                                                    <li>
+                                                                        <div class="ui-e-wrap">
+                                                                            <div class="ui-e-content">
+                                                                                <span class="ui-e-title">Para quem vende e quer vender mais e com qualidade                                    </span>
+                                                                                <p class="ui-e-text">Automatize atendimento, encante seus leads e aumente suas conversões com agentes de IA que falam com o seu público no momento certo e do jeito certo. </p>
+                                                                            </div>
+                                                                            <div class="ui-e-icon">
+                                                                                <i aria-hidden="true" class="ti ti-bar-chart"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="ui-e-wrap">
+                                                                            <div class="ui-e-content">
+                                                                                <span class="ui-e-title">Para quem precisa de agilidade no atendimento                                    </span>
+                                                                                <p class="ui-e-text">Clínicas, escolas, escritórios e empresas com grande volume de contatos e necessitam de velocidade, organização e menos retrabalho. Nossos agentes de IA cumprem esse papel para te dar a tranquilidade que estava esperando. </p>
+                                                                            </div>
+                                                                            <div class="ui-e-icon">
+                                                                                <i aria-hidden="true" class="ti ti-headphone"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="ui-e-wrap">
+                                                                            <div class="ui-e-content">
+                                                                                <span class="ui-e-title">Para quem quer escalar sem perder qualidade                                    </span>
+                                                                                <p class="ui-e-text">Empresas em crescimento precisam de processos inteligentes. Nossos agentes mantêm o padrão, mesmo quando o volume de atendimentos explode. </p>
+                                                                            </div>
+                                                                            <div class="ui-e-icon">
+                                                                                <i aria-hidden="true" class="ti ti-rocket"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="ui-e-wrap">
+                                                                            <div class="ui-e-content">
+                                                                                <span class="ui-e-title">Para quem já tem sistemas e quer conectá-los                                    </span>
+                                                                                <p class="ui-e-text">Se seu atendimento está espalhado em planilhas, CRMs, ERPs ou APIs, nossos agentes se integram e centralizam tudo em um só fluxo inteligente. </p>
+                                                                            </div>
+                                                                            <div class="ui-e-icon">
+                                                                                <i aria-hidden="true" class="ti ti-control-shuffle"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-element elementor-element-fcd944e elementor-invisible elementor-widget elementor-widget-button" data-id="fcd944e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;240&quot;}" data-widget_type="button.default">
+                                                            <div class="elementor-widget-container">
+                                                                <div class="elementor-button-wrapper">
+                                                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="https://wa.link/azckgx">
+                                                                        <span class="elementor-button-content-wrapper">
+                                                                            <span class="elementor-button-text">Quero receber uma prévia</span>
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-f4c0233 e-flex e-con-boxed e-con e-parent" data-id="f4c0233" data-element_type="container" id="features">
+                                        <div class="e-con-inner">
+                                            <div class="elementor-element elementor-element-fcb4ff4 e-con-full e-flex e-con e-child" data-id="fcb4ff4" data-element_type="container">
+                                                <div class="elementor-element elementor-element-e8f2704 e-con-full e-flex e-con e-child" data-id="e8f2704" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                    <div class="elementor-element elementor-element-d4635d9 elementor-widget-mobile__width-initial elementor-widget__width-initial elementor-invisible elementor-widget elementor-widget-image" data-id="d4635d9" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;200&quot;}" data-widget_type="image.default">
+                                                        <div class="elementor-widget-container">
+                                                            <img loading="lazy" decoding="async" width="671" height="550" src="https://beaihub.com.br/wp-content/uploads/2025/03/AI-Chatbot-Hero-Image.png" class="attachment-full size-full wp-image-184" alt="" srcset="https://beaihub.com.br/wp-content/uploads/2025/03/AI-Chatbot-Hero-Image.png 671w, https://beaihub.com.br/wp-content/uploads/2025/03/AI-Chatbot-Hero-Image-300x246.png 300w, https://beaihub.com.br/wp-content/uploads/2025/03/AI-Chatbot-Hero-Image-650x533.png 650w" sizes="(max-width: 671px) 100vw, 671px"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-ee469ce e-con-full e-flex e-con e-child" data-id="ee469ce" data-element_type="container">
+                                                    <div class="elementor-element elementor-element-b5ae421 elementor-widget elementor-widget-heading" data-id="b5ae421" data-element_type="widget" data-widget_type="heading.default">
+                                                        <div class="elementor-widget-container">
+                                                            <h6 class="elementor-heading-title elementor-size-default">100% Online</h6>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-c9a4939 elementor-widget elementor-widget-heading" data-id="c9a4939" data-element_type="widget" data-widget_type="heading.default">
+                                                        <div class="elementor-widget-container">
+                                                            <h2 class="elementor-heading-title elementor-size-default">Enquanto sua equipe está OFF as suas IAs estão online</h2>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-3f5aca3 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="3f5aca3" data-element_type="widget" data-widget_type="text-editor.default">
+                                                        <div class="elementor-widget-container">
+                                                            <p>Com a IA sua empresa poderá crescer vertiginosamente e sem onerar o orçamento. Seu novo time virtual operará incansavelmente 24/7 atendendo milhares de leads e clientes de uma maneira bem humorada e com alta performance.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-c2d15a1 e-flex e-con-boxed e-con e-parent" data-id="c2d15a1" data-element_type="container">
+                                        <div class="e-con-inner">
+                                            <div class="elementor-element elementor-element-3dd5512 e-con-full e-flex e-con e-child" data-id="3dd5512" data-element_type="container">
+                                                <div class="elementor-element elementor-element-924478c e-con-full e-flex e-con e-child" data-id="924478c" data-element_type="container">
+                                                    <div class="elementor-element elementor-element-044f475 elementor-widget elementor-widget-heading" data-id="044f475" data-element_type="widget" data-widget_type="heading.default">
+                                                        <div class="elementor-widget-container">
+                                                            <h6 class="elementor-heading-title elementor-size-default">Integrações</h6>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-edd378f elementor-widget elementor-widget-heading" data-id="edd378f" data-element_type="widget" data-widget_type="heading.default">
+                                                        <div class="elementor-widget-container">
+                                                            <h2 class="elementor-heading-title elementor-size-default">Nos integramos com as principais ferramentas do mercado</h2>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-6cd231d elementor-widget elementor-widget-text-editor" data-id="6cd231d" data-element_type="widget" data-widget_type="text-editor.default">
+                                                        <div class="elementor-widget-container">
+                                                            <p>Envie seus contatos para outras ferramentas, faça disparos quando alguma condição é atendida e não perca nenhum negócio porque alguém esqueceu de realizar uma tarefa no seu CRM.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-eb692ca e-con-full e-flex e-con e-child" data-id="eb692ca" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                    <div class="elementor-element elementor-element-49c5cd2 elementor-widget__width-inherit elementor-invisible elementor-widget elementor-widget-image" data-id="49c5cd2" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;200&quot;}" data-widget_type="image.default">
+                                                        <div class="elementor-widget-container">
+                                                            <img loading="lazy" decoding="async" width="1184" height="978" src="https://beaihub.com.br/wp-content/uploads/2025/03/Frame_2.png" class="attachment-full size-full wp-image-185" alt="" srcset="https://beaihub.com.br/wp-content/uploads/2025/03/Frame_2.png 1184w, https://beaihub.com.br/wp-content/uploads/2025/03/Frame_2-300x248.png 300w, https://beaihub.com.br/wp-content/uploads/2025/03/Frame_2-1024x846.png 1024w, https://beaihub.com.br/wp-content/uploads/2025/03/Frame_2-768x634.png 768w, https://beaihub.com.br/wp-content/uploads/2025/03/Frame_2-650x537.png 650w" sizes="(max-width: 1184px) 100vw, 1184px"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-73db658 e-flex e-con-boxed e-con e-parent" data-id="73db658" data-element_type="container" id="testimonials">
+                                        <div class="e-con-inner">
+                                            <div class="elementor-element elementor-element-9f07d6b e-con-full e-flex e-con e-child" data-id="9f07d6b" data-element_type="container">
+                                                <div class="elementor-element elementor-element-56e1bd4 elementor-widget elementor-widget-menu-anchor" data-id="56e1bd4" data-element_type="widget" data-widget_type="menu-anchor.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-menu-anchor" id="testemunhos"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-0aaba7c elementor-invisible elementor-widget elementor-widget-heading" data-id="0aaba7c" data-element_type="widget" data-settings="{&quot;_animation_delay&quot;:&quot;160&quot;,&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <h6 class="elementor-heading-title elementor-size-default">Testemunhos</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-701ee3c elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-invisible elementor-widget elementor-widget-heading" data-id="701ee3c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;200&quot;}" data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <h2 class="elementor-heading-title elementor-size-default">Quem já usou, não volta atrás</h2>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-53ba922 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial elementor-invisible elementor-widget elementor-widget-text-editor" data-id="53ba922" data-element_type="widget" data-settings="{&quot;_animation_delay&quot;:&quot;240&quot;,&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="text-editor.default">
+                                                    <div class="elementor-widget-container">
+                                                        <p>Resultados reais, na voz de quem já trocou tarefas manuais por inteligência automatizada e colheu os frutos no dia a dia.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-e2782f9 e-con-full e-flex e-con e-child" data-id="e2782f9" data-element_type="container">
+                                                    <div class="elementor-element elementor-element-fa7652f ui-e-img-inline-yes ui-e-layout_1 elementor-widget elementor-widget-uicore-testimonial-grid" data-id="fa7652f" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;layout_1&quot;}" data-widget_type="uicore-testimonial-grid.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="ui-e-grid ">
+                                                                <div class="ui-e-wrp swiper-slide">
+                                                                    <div class="ui-e-animations-wrp  ">
+                                                                        <div class="ui-e-item">
+                                                                            <div class="ui-e-content">
+                                                                                <div class="ui-e-testimonial-text ">
+                                                                                    <p>Além de funcionar redondo, a equipe entendeu exatamente o que a gente precisava desde o início.</p>
+                                                                                </div>
+                                                                                <div class="ui-e-testimonial-flex">
+                                                                                    <div class="ui-e-testimonial-avatar  ">
+                                                                                        <img decoding="async" src="" alt="Camila Freitas">
+                                                                                    </div>
+                                                                                    <div class="ui-e-inner-content">
+                                                                                        <h5 class="ui-e-testimonial-name ">
+                                                                                            <span>Camila Freitas</span>
+                                                                                        </h5>
+                                                                                        <div class="ui-e-testimonial-job-title ">
+                                                                                            <span>Coordenadora de Suporte</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="ui-e-wrp swiper-slide">
+                                                                    <div class="ui-e-animations-wrp  ">
+                                                                        <div class="ui-e-item">
+                                                                            <div class="ui-e-content">
+                                                                                <div class="ui-e-testimonial-text ">
+                                                                                    <p>Tive medo de parecer impessoal no começo, mas o agente virou parte da nossa equipe.</p>
+                                                                                </div>
+                                                                                <div class="ui-e-testimonial-flex">
+                                                                                    <div class="ui-e-testimonial-avatar  ">
+                                                                                        <img decoding="async" src="" alt="Tiago Cunha">
+                                                                                    </div>
+                                                                                    <div class="ui-e-inner-content">
+                                                                                        <h5 class="ui-e-testimonial-name ">
+                                                                                            <span>Tiago Cunha</span>
+                                                                                        </h5>
+                                                                                        <div class="ui-e-testimonial-job-title ">
+                                                                                            <span>CEO de Agência Criativa</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="ui-e-wrp swiper-slide">
+                                                                    <div class="ui-e-animations-wrp  ">
+                                                                        <div class="ui-e-item">
+                                                                            <div class="ui-e-content">
+                                                                                <div class="ui-e-testimonial-text ">
+                                                                                    <p>A gente achou que era só mais um chatbot... virou nosso principal canal de captação de leads.</p>
+                                                                                </div>
+                                                                                <div class="ui-e-testimonial-flex">
+                                                                                    <div class="ui-e-testimonial-avatar  ">
+                                                                                        <img decoding="async" src="" alt="Juliana Ribeiro">
+                                                                                    </div>
+                                                                                    <div class="ui-e-inner-content">
+                                                                                        <h5 class="ui-e-testimonial-name ">
+                                                                                            <span>Juliana Ribeiro</span>
+                                                                                        </h5>
+                                                                                        <div class="ui-e-testimonial-job-title ">
+                                                                                            <span>Analista de Marketing</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="ui-e-wrp swiper-slide">
+                                                                    <div class="ui-e-animations-wrp  ">
+                                                                        <div class="ui-e-item">
+                                                                            <div class="ui-e-content">
+                                                                                <div class="ui-e-testimonial-text ">
+                                                                                    <p>A integração com nosso sistema de agendamentos foi perfeita. E o bot ainda fala igualzinho a gente.</p>
+                                                                                </div>
+                                                                                <div class="ui-e-testimonial-flex">
+                                                                                    <div class="ui-e-testimonial-avatar  ">
+                                                                                        <img decoding="async" src="" alt="Dr. Leandro Nunes">
+                                                                                    </div>
+                                                                                    <div class="ui-e-inner-content">
+                                                                                        <h5 class="ui-e-testimonial-name ">
+                                                                                            <span>Dr. Leandro Nunes</span>
+                                                                                        </h5>
+                                                                                        <div class="ui-e-testimonial-job-title ">
+                                                                                            <span>Diretor de Clínica Médica</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="ui-e-wrp swiper-slide">
+                                                                    <div class="ui-e-animations-wrp  ">
+                                                                        <div class="ui-e-item">
+                                                                            <div class="ui-e-content">
+                                                                                <div class="ui-e-testimonial-text ">
+                                                                                    <p>Reduzi em 70% o tempo gasto com tarefas repetitivas. Hoje só entro no chat pra vender.</p>
+                                                                                </div>
+                                                                                <div class="ui-e-testimonial-flex">
+                                                                                    <div class="ui-e-testimonial-avatar  ">
+                                                                                        <img decoding="async" src="" alt="Rafael Souza">
+                                                                                    </div>
+                                                                                    <div class="ui-e-inner-content">
+                                                                                        <h5 class="ui-e-testimonial-name ">
+                                                                                            <span>Rafael Souza</span>
+                                                                                        </h5>
+                                                                                        <div class="ui-e-testimonial-job-title ">
+                                                                                            <span>Consultor Imobiliário</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="ui-e-wrp swiper-slide">
+                                                                    <div class="ui-e-animations-wrp  ">
+                                                                        <div class="ui-e-item">
+                                                                            <div class="ui-e-content">
+                                                                                <div class="ui-e-testimonial-text ">
+                                                                                    <p>A IA da BeAI Hub virou meu braço direito no atendimento.</p>
+                                                                                </div>
+                                                                                <div class="ui-e-testimonial-flex">
+                                                                                    <div class="ui-e-testimonial-avatar  ">
+                                                                                        <img decoding="async" src="" alt=" Mariana Lopes">
+                                                                                    </div>
+                                                                                    <div class="ui-e-inner-content">
+                                                                                        <h5 class="ui-e-testimonial-name ">
+                                                                                            <span>Mariana Lopes</span>
+                                                                                        </h5>
+                                                                                        <div class="ui-e-testimonial-job-title ">
+                                                                                            <span>Gestora de E-commerce</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </main>
+                        </article>
+                    </div>
+                    <!-- #primary -->
+                </div>
+                <!-- #content -->
+                <footer id="uicore-tb-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter">
+                    <div data-elementor-type="uicore-tb" data-elementor-id="146" class="elementor elementor-146" data-elementor-settings="{&quot;element_pack_global_tooltip_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;element_pack_global_tooltip_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;element_pack_global_tooltip_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;element_pack_global_tooltip_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}" data-elementor-post-type="uicore-tb">
+                        <div class="elementor-element elementor-element-1c584ab e-con-full e-flex e-con e-parent" data-id="1c584ab" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                            <div class="elementor-element elementor-element-23a726f e-con-full e-flex e-con e-child" data-id="23a726f" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                <div class="elementor-element elementor-element-b40a2de elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-invisible elementor-widget elementor-widget-heading" data-id="b40a2de" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;160&quot;}" data-widget_type="heading.default">
+                                    <div class="elementor-widget-container">
+                                        <h2 class="elementor-heading-title elementor-size-default">Pronto pra Automatizar o atendimento do seu negócio com inteligência artificial?</h2>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-48d9c77 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-invisible elementor-widget elementor-widget-text-editor" data-id="48d9c77" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;200&quot;}" data-widget_type="text-editor.default">
+                                    <div class="elementor-widget-container">
+                                        <p>Fale com nosso agente e descubra como a Inteligência Artificial pode transformar seus atendimentos e resultados no whatsapp.</p>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-935679e elementor-invisible elementor-widget elementor-widget-button" data-id="935679e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;240&quot;}" data-widget_type="button.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="elementor-button-wrapper">
+                                            <a class="elementor-button elementor-button-link elementor-size-sm" href="https://wa.link/azckgx">
+                                                <span class="elementor-button-content-wrapper">
+                                                    <span class="elementor-button-text">Quero falar com o agente</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-f1ef147 e-flex e-con-boxed e-con e-child" data-id="f1ef147" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                <div class="e-con-inner">
+                                    <div class="elementor-element elementor-element-75288f3 e-con-full e-flex e-con e-child" data-id="75288f3" data-element_type="container">
+                                        <div class="elementor-element elementor-element-9b89b78 e-con-full e-flex e-con e-child" data-id="9b89b78" data-element_type="container">
+                                            <div class="elementor-element elementor-element-f8f0b78 elementor-widget elementor-widget-image" data-id="f8f0b78" data-element_type="widget" data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    <img width="709" height="163" src="https://beaihub.com.br/wp-content/uploads/2025/03/Logo-Branca.png" class="attachment-full size-full wp-image-156" alt="" srcset="https://beaihub.com.br/wp-content/uploads/2025/03/Logo-Branca.png 709w, https://beaihub.com.br/wp-content/uploads/2025/03/Logo-Branca-300x69.png 300w, https://beaihub.com.br/wp-content/uploads/2025/03/Logo-Branca-650x149.png 650w" sizes="(max-width: 709px) 100vw, 709px"/>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-b88cb32 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="b88cb32" data-element_type="widget" data-widget_type="icon-list.default">
+                                                <div class="elementor-widget-container">
+                                                    <ul class="elementor-icon-list-items">
+                                                        <li class="elementor-icon-list-item">
+                                                            <span class="elementor-icon-list-icon">
+                                                                <i aria-hidden="true" class="ti ti-email"></i>
+                                                            </span>
+                                                            <span class="elementor-icon-list-text">
+                                                                <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1c7f7372687d68735c7e797d7574697e327f7371327e6e">[email &#160;protected]</a>
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-f24cb3b e-grid-align-right e-grid-align-mobile-left elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="f24cb3b" data-element_type="widget" data-widget_type="social-icons.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-social-icons-wrapper elementor-grid">
+                                                        <span class="elementor-grid-item">
+                                                            <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-animation-shrink elementor-repeater-item-ee5a819" target="_blank">
+                                                                <span class="elementor-screen-only">Instagram</span>
+                                                                <svg class="e-font-icon-svg e-fab-instagram" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                                                                </svg>
+                                                            </a>
+                                                        </span>
+                                                        <span class="elementor-grid-item">
+                                                            <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-animation-shrink elementor-repeater-item-e275cc8" target="_blank">
+                                                                <span class="elementor-screen-only">Linkedin</span>
+                                                                <svg class="e-font-icon-svg e-fab-linkedin" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                                                                </svg>
+                                                            </a>
+                                                        </span>
+                                                        <span class="elementor-grid-item">
+                                                            <a class="elementor-icon elementor-social-icon elementor-social-icon-whatsapp elementor-animation-shrink elementor-repeater-item-4e3e1d6" href="https://wa.link/azckgx" target="_blank">
+                                                                <span class="elementor-screen-only">Whatsapp</span>
+                                                                <svg class="e-font-icon-svg e-fab-whatsapp" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path>
+                                                                </svg>
+                                                            </a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-d6aae48 e-flex e-con-boxed e-con e-child" data-id="d6aae48" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                                <div class="e-con-inner">
+                                    <div class="elementor-element elementor-element-17ce319 e-con-full e-flex e-con e-child" data-id="17ce319" data-element_type="container">
+                                        <div class="elementor-element elementor-element-b62b38e elementor-icon-list--layout-inline elementor-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="b62b38e" data-element_type="widget" data-widget_type="icon-list.default">
+                                            <div class="elementor-widget-container">
+                                                <ul class="elementor-icon-list-items elementor-inline-items">
+                                                    <li class="elementor-icon-list-item elementor-inline-item">
+                                                        <a href="https://uicore.co/">
+                                                            <span class="elementor-icon-list-text">Be AI Hub © 2025 - Todos os Direitos Reservados</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- 1.5 uicore_content_end -->
+            </div>
+            <!-- #page -->
+            <div id="uicore-back-to-top" class="uicore-back-to-top uicore-i-arrow uicore_hide_mobile "></div>
+            <div class="uicore-navigation-wrapper uicore-navbar elementor-section elementor-section-boxed uicore-mobile-menu-wrapper
+                ">
+                <nav class="uicore elementor-container">
+                    <div class="uicore-branding uicore-mobile">
+                        <a href="https://beaihub.com.br/" rel="home">
+                            <img class="uicore uicore-logo" src="https://beaihub.com.br/wp-content/uploads/2025/03/Logo-Preta.png" alt="BeAI Hub"/>
+                        </a>
+                    </div>
+                    <div class="uicore-branding uicore-desktop"></div>
+                    <div class="uicore-mobile-head-right">
+                        <button type="button" class="uicore-toggle uicore-ham" aria-label="mobile-menu">
+                            <span class="bars">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </span>
+                        </button>
+                    </div>
+                </nav>
+                <div class="uicore-navigation-content">
+                    <div class="uicore-menu-container uicore-nav">
+                        <ul data-uils="header-menu" data-uils-title="Navigation Menu" class="uicore-menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-214">
+                                <a href="#top">
+                                    <span class="ui-menu-item-wrapper">Início</span>
+                                </a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-215">
+                                <a href="#sobre">
+                                    <span class="ui-menu-item-wrapper">Sobre</span>
+                                </a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-216">
+                                <a href="#diferenciais">
+                                    <span class="ui-menu-item-wrapper">Diferenciais</span>
+                                </a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-217">
+                                <a href="#paraquem">
+                                    <span class="ui-menu-item-wrapper">Para Quem</span>
+                                </a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-218">
+                                <a href="#testemunhos">
+                                    <span class="ui-menu-item-wrapper">Testemunhos</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="uicore uicore-extra" data-uils="header_extra" data-uils-title="Header Extras">
+                        <div class="uicore-cta-wrapper">
+                            <a href="https://wa.link/azckgx" target="_self" class="uicore-btn uicore-inverted">
+                                <span class="elementor-button-text">Contato                    </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 1.6 uicore_body_end -->
+        </div>
+        <!-- 1.7 uicore_after_body_content -->
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script>
+            var uicore_frontend = {
+                'back': 'Back',
+                'rtl': '',
+                'mobile_br': '1025'
+            };
+            console.log('Using Upshift v.1.0.1');
+            console.log('Powered By UiCore Framework v.5.0.16');
+        </script>
+        <script type="speculationrules">
+            {
+                "prefetch": [
+                    {
+                        "source": "document",
+                        "where": {
+                            "and": [
+                                {
+                                    "href_matches": "\/*"
+                                },
+                                {
+                                    "not": {
+                                        "href_matches": [
+                                            "\/wp-*.php",
+                                            "\/wp-admin\/*",
+                                            "\/wp-content\/uploads\/*",
+                                            "\/wp-content\/*",
+                                            "\/wp-content\/plugins\/*",
+                                            "\/wp-content\/themes\/upshift\/*",
+                                            "\/*\\?(.+)"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "not": {
+                                        "selector_matches": "a[rel~=\"nofollow\"]"
+                                    }
+                                },
+                                {
+                                    "not": {
+                                        "selector_matches": ".no-prefetch, .no-prefetch a"
+                                    }
+                                }
+                            ]
+                        },
+                        "eagerness": "conservative"
+                    }
+                ]
+            }</script>
+        <script>
+            const lazyloadRunObserver = () => {
+                const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
+                const lazyloadBackgroundObserver = new IntersectionObserver( (entries) => {
+                    entries.forEach( (entry) => {
+                        if (entry.isIntersecting) {
+                            let lazyloadBackground = entry.target;
+                            if (lazyloadBackground) {
+                                lazyloadBackground.classList.add('e-lazyloaded');
+                            }
+                            lazyloadBackgroundObserver.unobserve(entry.target);
+                        }
+                    }
+                    );
+                }
+                ,{
+                    rootMargin: '200px 0px 200px 0px'
+                });
+                lazyloadBackgrounds.forEach( (lazyloadBackground) => {
+                    lazyloadBackgroundObserver.observe(lazyloadBackground);
+                }
+                );
+            }
+            ;
+            const events = ['DOMContentLoaded', 'elementor/lazyload/observe', ];
+            events.forEach( (event) => {
+                document.addEventListener(event, lazyloadRunObserver);
+            }
+            );
+        </script>
+        <link rel='stylesheet' id='ui-e-logo-grid-css' href='https://beaihub.com.br/wp-content/plugins/uicore-elements/assets/css/elements/logo-grid.css?ver=1.2.1' media='all'/>
+        <link rel='stylesheet' id='ui-e-counter-css' href='https://beaihub.com.br/wp-content/plugins/uicore-elements/assets/css/elements/counter.css?ver=1.2.1' media='all'/>
+        <link rel='stylesheet' id='ui-e-animated-border-css' href='https://beaihub.com.br/wp-content/plugins/uicore-animate/assets/css/animated-border.css?ver=2.1.4' media='all'/>
+        <link rel='stylesheet' id='ui-e-icon-box-css' href='https://beaihub.com.br/wp-content/plugins/uicore-elements/assets/css/elements/icon-box.css?ver=1.2.1' media='all'/>
+        <link rel='stylesheet' id='ui-e-icon-list-css' href='https://beaihub.com.br/wp-content/plugins/uicore-elements/assets/css/elements/icon-list.css?ver=1.2.1' media='all'/>
+        <link rel='stylesheet' id='ui-e-testimonial-grid-css' href='https://beaihub.com.br/wp-content/plugins/uicore-elements/assets/css/elements/testimonial-grid.css?ver=1.2.1' media='all'/>
+        <link rel='stylesheet' id='widget-icon-list-css' href='https://beaihub.com.br/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.28.1' media='all'/>
+        <link rel='stylesheet' id='e-animation-shrink-css' href='https://beaihub.com.br/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css?ver=3.28.1' media='all'/>
+        <link rel='stylesheet' id='widget-social-icons-css' href='https://beaihub.com.br/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.28.1' media='all'/>
+        <link rel='stylesheet' id='e-apple-webkit-css' href='https://beaihub.com.br/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=3.28.1' media='all'/>
+        <script id="betterlinks-app-js-extra">
+            var betterLinksApp = {
+                "betterlinks_nonce": "0c72739ce8",
+                "ajaxurl": "https:\/\/beaihub.com.br\/wp-admin\/admin-ajax.php",
+                "site_url": "https:\/\/beaihub.com.br"
+            };
+        </script>
+        <script src="https://beaihub.com.br/wp-content/plugins/betterlinks/assets/js/betterlinks.app.core.min.js?ver=79fa258903cbd892da1f" id="betterlinks-app-js"></script>
+        <script src="https://beaihub.com.br/wp-content/plugins/uicore-elements/assets/js/components/global-entrances.js?ver=1.2.1" id="ui-e-entrance-js"></script>
+        <script src="https://beaihub.com.br/wp-content/plugins/uicore-elements/assets/js/lib/countUp.umd.js?ver=1.2.1" id="ui-e-countup-js"></script>
+        <script src="https://beaihub.com.br/wp-content/plugins/uicore-elements/assets/js/components/global-counter.js?ver=1.2.1" id="ui-e-counter-js"></script>
+        <script src="https://beaihub.com.br/wp-content/plugins/uicore-elements/assets/js/lib/odometer.js?ver=1.2.1" id="ui-e-odometer-js"></script>
+        <script src="https://beaihub.com.br/wp-content/uploads/uicore-global.js?ver=6704" id="uicore_global-js"></script>
+        <script id="bdt-uikit-js-extra">
+            var element_pack_ajax_login_config = {
+                "ajaxurl": "https:\/\/beaihub.com.br\/wp-admin\/admin-ajax.php",
+                "language": "pt",
+                "loadingmessage": "Sending user info, please wait...",
+                "unknownerror": "Unknown error, make sure access is correct!"
+            };
+            var ElementPackConfig = {
+                "ajaxurl": "https:\/\/beaihub.com.br\/wp-admin\/admin-ajax.php",
+                "nonce": "c81860057a",
+                "data_table": {
+                    "language": {
+                        "sLengthMenu": "Show _MENU_ Entries",
+                        "sInfo": "Showing _START_ to _END_ of _TOTAL_ entries",
+                        "sSearch": "Search :",
+                        "sZeroRecords": "No matching records found",
+                        "oPaginate": {
+                            "sPrevious": "Previous",
+                            "sNext": "Next"
+                        }
+                    }
+                },
+                "contact_form": {
+                    "sending_msg": "Sending message please wait...",
+                    "captcha_nd": "Invisible captcha not defined!",
+                    "captcha_nr": "Could not get invisible captcha response!"
+                },
+                "mailchimp": {
+                    "subscribing": "Subscribing you please wait..."
+                },
+                "search": {
+                    "more_result": "More Results",
+                    "search_result": "SEARCH RESULT",
+                    "not_found": "not found"
+                },
+                "elements_data": {
+                    "sections": [],
+                    "columns": [],
+                    "widgets": []
+                }
+            };
+        </script>
+        <script src="https://beaihub.com.br/wp-content/plugins/bdthemes-element-pack/assets/js/bdt-uikit.min.js?ver=3.17.11" id="bdt-uikit-js"></script>
+        <script src="https://beaihub.com.br/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.28.1" id="elementor-webpack-runtime-js"></script>
+        <script src="https://beaihub.com.br/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.28.1" id="elementor-frontend-modules-js"></script>
+        <script src="https://beaihub.com.br/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+        <script id="elementor-frontend-js-before">
+            var elementorFrontendConfig = {
+                "environmentMode": {
+                    "edit": false,
+                    "wpPreview": false,
+                    "isScriptDebug": false
+                },
+                "i18n": {
+                    "shareOnFacebook": "Compartilhar no Facebook",
+                    "shareOnTwitter": "Compartilhar no Twitter",
+                    "pinIt": "Fixar",
+                    "download": "Baixar",
+                    "downloadImage": "Baixar imagem",
+                    "fullscreen": "Tela cheia",
+                    "zoom": "Zoom",
+                    "share": "Compartilhar",
+                    "playVideo": "Reproduzir v\u00eddeo",
+                    "previous": "Anterior",
+                    "next": "Pr\u00f3ximo",
+                    "close": "Fechar",
+                    "a11yCarouselPrevSlideMessage": "Slide anterior",
+                    "a11yCarouselNextSlideMessage": "Pr\u00f3ximo slide",
+                    "a11yCarouselFirstSlideMessage": "Este \u00e9 o primeiro slide",
+                    "a11yCarouselLastSlideMessage": "Este \u00e9 o \u00faltimo slide",
+                    "a11yCarouselPaginationBulletMessage": "Ir para o slide"
+                },
+                "is_rtl": false,
+                "breakpoints": {
+                    "xs": 0,
+                    "sm": 480,
+                    "md": 768,
+                    "lg": 1025,
+                    "xl": 1440,
+                    "xxl": 1600
+                },
+                "responsive": {
+                    "breakpoints": {
+                        "mobile": {
+                            "label": "Dispositivos m\u00f3veis no modo retrato",
+                            "value": 767,
+                            "default_value": 767,
+                            "direction": "max",
+                            "is_enabled": true
+                        },
+                        "mobile_extra": {
+                            "label": "Dispositivos m\u00f3veis no modo paisagem",
+                            "value": 880,
+                            "default_value": 880,
+                            "direction": "max",
+                            "is_enabled": false
+                        },
+                        "tablet": {
+                            "label": "Tablet no modo retrato",
+                            "value": 1024,
+                            "default_value": 1024,
+                            "direction": "max",
+                            "is_enabled": true
+                        },
+                        "tablet_extra": {
+                            "label": "Tablet no modo paisagem",
+                            "value": 1200,
+                            "default_value": 1200,
+                            "direction": "max",
+                            "is_enabled": false
+                        },
+                        "laptop": {
+                            "label": "Notebook",
+                            "value": 1366,
+                            "default_value": 1366,
+                            "direction": "max",
+                            "is_enabled": false
+                        },
+                        "widescreen": {
+                            "label": "Tela ampla (widescreen)",
+                            "value": 2400,
+                            "default_value": 2400,
+                            "direction": "min",
+                            "is_enabled": false
+                        }
+                    },
+                    "hasCustomBreakpoints": false
+                },
+                "version": "3.28.1",
+                "is_static": false,
+                "experimentalFeatures": {
+                    "e_font_icon_svg": true,
+                    "additional_custom_breakpoints": true,
+                    "container": true,
+                    "e_local_google_fonts": true,
+                    "theme_builder_v2": true,
+                    "nested-elements": true,
+                    "editor_v2": true,
+                    "e_element_cache": true,
+                    "home_screen": true,
+                    "launchpad-checklist": true
+                },
+                "urls": {
+                    "assets": "https:\/\/beaihub.com.br\/wp-content\/plugins\/elementor\/assets\/",
+                    "ajaxurl": "https:\/\/beaihub.com.br\/wp-admin\/admin-ajax.php",
+                    "uploadUrl": "https:\/\/beaihub.com.br\/wp-content\/uploads"
+                },
+                "nonces": {
+                    "floatingButtonsClickTracking": "75338f8c5a"
+                },
+                "swiperClass": "swiper",
+                "settings": {
+                    "page": {
+                        "element_pack_global_tooltip_width": {
+                            "unit": "px",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "element_pack_global_tooltip_width_tablet": {
+                            "unit": "px",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "element_pack_global_tooltip_width_mobile": {
+                            "unit": "px",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "element_pack_global_tooltip_padding": {
+                            "unit": "px",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "element_pack_global_tooltip_padding_tablet": {
+                            "unit": "px",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "element_pack_global_tooltip_padding_mobile": {
+                            "unit": "px",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "element_pack_global_tooltip_border_radius": {
+                            "unit": "px",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "element_pack_global_tooltip_border_radius_tablet": {
+                            "unit": "px",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "element_pack_global_tooltip_border_radius_mobile": {
+                            "unit": "px",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        }
+                    },
+                    "editorPreferences": []
+                },
+                "kit": {
+                    "body_background_background": "classic",
+                    "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+                    "global_image_lightbox": "yes",
+                    "lightbox_enable_counter": "yes",
+                    "lightbox_enable_fullscreen": "yes",
+                    "lightbox_enable_zoom": "yes",
+                    "lightbox_enable_share": "yes",
+                    "lightbox_title_src": "title",
+                    "lightbox_description_src": "description"
+                },
+                "post": {
+                    "id": 145,
+                    "title": "BeAI%20Hub%20%E2%80%93%20Solu%C3%A7%C3%B5es%20Inteligentes",
+                    "excerpt": "",
+                    "featuredImage": false
+                }
+            };
+        </script>
+        <script src="https://beaihub.com.br/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.28.1" id="elementor-frontend-js"></script>
+        <script src="https://beaihub.com.br/wp-content/plugins/bdthemes-element-pack/assets/js/modules/ep-background-overlay.min.js?ver=7.12.16" id="ep-background-overlay-js"></script>
+        <script src="https://beaihub.com.br/wp-content/plugins/uicore-elements/assets/js/elements/logo-grid.js?ver=1.2.1" id="ui-e-logo-grid-js"></script>
+        <script src="https://beaihub.com.br/wp-content/plugins/uicore-animate/assets/js/animated-border.js?ver=2.1.4" id="ui-e-animated-border-js"></script>
+        <script src="https://beaihub.com.br/wp-content/plugins/bdthemes-element-pack/assets/js/common/helper.min.js?ver=7.12.16" id="element-pack-helper-js"></script>
+        <script src="https://beaihub.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.27.5" id="elementor-pro-webpack-runtime-js"></script>
+        <script src="https://beaihub.com.br/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+        <script src="https://beaihub.com.br/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+        <script id="wp-i18n-js-after">
+            wp.i18n.setLocaleData({
+                'text direction\u0004ltr': ['ltr']
+            });
+        </script>
+        <script id="elementor-pro-frontend-js-before">
+            var ElementorProFrontendConfig = {
+                "ajaxurl": "https:\/\/beaihub.com.br\/wp-admin\/admin-ajax.php",
+                "nonce": "a897335184",
+                "urls": {
+                    "assets": "https:\/\/beaihub.com.br\/wp-content\/plugins\/elementor-pro\/assets\/",
+                    "rest": "https:\/\/beaihub.com.br\/wp-json\/"
+                },
+                "settings": {
+                    "lazy_load_background_images": true
+                },
+                "popup": {
+                    "hasPopUps": false
+                },
+                "shareButtonsNetworks": {
+                    "facebook": {
+                        "title": "Facebook",
+                        "has_counter": true
+                    },
+                    "twitter": {
+                        "title": "Twitter"
+                    },
+                    "linkedin": {
+                        "title": "LinkedIn",
+                        "has_counter": true
+                    },
+                    "pinterest": {
+                        "title": "Pinterest",
+                        "has_counter": true
+                    },
+                    "reddit": {
+                        "title": "Reddit",
+                        "has_counter": true
+                    },
+                    "vk": {
+                        "title": "VK",
+                        "has_counter": true
+                    },
+                    "odnoklassniki": {
+                        "title": "OK",
+                        "has_counter": true
+                    },
+                    "tumblr": {
+                        "title": "Tumblr"
+                    },
+                    "digg": {
+                        "title": "Digg"
+                    },
+                    "skype": {
+                        "title": "Skype"
+                    },
+                    "stumbleupon": {
+                        "title": "StumbleUpon",
+                        "has_counter": true
+                    },
+                    "mix": {
+                        "title": "Mix"
+                    },
+                    "telegram": {
+                        "title": "Telegram"
+                    },
+                    "pocket": {
+                        "title": "Pocket",
+                        "has_counter": true
+                    },
+                    "xing": {
+                        "title": "XING",
+                        "has_counter": true
+                    },
+                    "whatsapp": {
+                        "title": "WhatsApp"
+                    },
+                    "email": {
+                        "title": "Email"
+                    },
+                    "print": {
+                        "title": "Print"
+                    },
+                    "x-twitter": {
+                        "title": "X"
+                    },
+                    "threads": {
+                        "title": "Threads"
+                    }
+                },
+                "facebook_sdk": {
+                    "lang": "pt_BR",
+                    "app_id": ""
+                },
+                "lottie": {
+                    "defaultAnimationUrl": "https:\/\/beaihub.com.br\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
+                }
+            };
+        </script>
+        <script src="https://beaihub.com.br/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.27.5" id="elementor-pro-frontend-js"></script>
+        <script src="https://beaihub.com.br/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.27.5" id="pro-elements-handlers-js"></script>
+        <style>
+            .uicore-animate-scroll {
+                animation: .5s linear uicoreFadeIn both;
+                animation-timeline: view(block);
+            }
+        </style>
+        <script>
+            (function() {
+                const supportsAnimationTimeline = CSS.supports("animation-timeline", "scroll()");
+
+                if (!supportsAnimationTimeline && document.querySelector('.uicore-animate-scroll')) {
+                    const script = document.createElement('script');
+                    script.src = "https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js";
+                    script.async = true;
+                    document.head.appendChild(script);
+                }
+            }
+            )();
+        </script>
+    </body>
+</html>
